@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure the image covers the specified area */
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 20px; /* Increase the font size */
+  margin: 15px 0;
+  color: #333;
+}
+
+.card p {
+  font-size: 16px; /* Increase the font size */
+  color: #666;
+}
